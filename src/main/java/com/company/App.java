@@ -76,6 +76,9 @@ public class App {
                 sumNew = sum;
             }
         }
+        if(bufferedReader==null){
+            bufferedReader.close();
+        }
     }
 
     private static String readProperties(String s) throws IOException {
